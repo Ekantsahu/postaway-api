@@ -16,22 +16,21 @@ A social media backend built using Node.js and Express that allows users to crea
 ---
 
 ## 📁 Project Structure
+```
 src/
 ├── features/
-│ ├── user/
-│ ├── post/
-│ ├── comment/
-│ └── like/
-│
+│   ├── user/
+│   ├── post/
+│   ├── comment/
+│   └── like/
 ├── middleware/
-│ ├── auth.middleware.js
-│ ├── logger.middleware.js
-│ ├── error.middleware.js
-│ └── fileUpload.middleware.js
-│
+│   ├── auth.middleware.js
+│   ├── logger.middleware.js
+│   ├── error.middleware.js
+│   └── fileUpload.middleware.js
 └── utils/
-└── customError.js
-
+    └── customError.js
+```
 
 ---
 
